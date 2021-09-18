@@ -66,6 +66,9 @@ int main(int argc, const char * argv[]) {
     NSLog(@"==修改值==_age=%x",*(Q+2));
     NSLog(@"==修改值==height=%x",*(Q+3));
     
+    NSLog(@"==修改值==p->_age==%x",p->_age);
+    NSLog(@"==修改值==p.height==%x",p.height);
+    
     //p确实是一个指针,并且可以通过指针移动获取值
     
     /*
